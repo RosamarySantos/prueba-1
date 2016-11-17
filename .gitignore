@@ -1,0 +1,6 @@
+#ignoramos los ficheros .class
+*.class
+
+#ignoramos los ficheros de copia seguridad atuomática
+*~
+
