@@ -4,3 +4,6 @@
 #ignoramos los ficheros de copia seguridad atuomática
 *~
 
+#ignoramos la documentacion
+/doc
+
