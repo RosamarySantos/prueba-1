@@ -1,0 +1,5 @@
+#no añadimos .class
+*.class
+
+#no añadimos doc
+/doc
