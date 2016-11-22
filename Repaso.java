@@ -1,4 +1,14 @@
+
 import java.util.Scanner;
+
+/**Clase que experimenta con String
+* devolviendo la cadena en plural y
+* nos dice si empieza por vocal y
+* si es una conjunción copulativa
+* @author Manuel
+* @version 1.0 
+*/
+
 public class Repaso {
     public static void main(String[] arg) {
       //creamos un Scanner para leer una palabra
@@ -21,10 +31,18 @@ public class Repaso {
 
     }
     //implementación del método devolverPalabraPlural
+    /** método devolverPalabraPlural
+    * @param palabra parámetro de tipo String
+    * @return la palabra en plural
+    */
     public static String devolverPalabraPlural(String palabra){
       return palabra+"s";
     }
     //implementación del método empiezaPorVocal
+    /** método empiezaPorVocal
+    * @param palabra parámetro de tipo String
+    * @return true si comienza por vocal
+    */
     public static boolean empiezaPorVocal(String palabra){
       char primeraLetra = palabra.toLowerCase().charAt(0);//primer caracter en minúscula
       return primeraLetra == 'a' || primeraLetra == 'e' || primeraLetra == 'i'
@@ -35,6 +53,10 @@ public class Repaso {
     }
 
     //implementación del método  esUnaConjuncionCopulativa
+    /** método esUnaConjuncioCopulativa
+    * @param palabra parámetro de tipo String
+    * @return true si es una conjunción copulativa
+    */
     //las conjunciones copulativas son:  Y, E, NI, QUE
     public static boolean esUnaConjuncionCopulativa(String palabra){
       return palabra.equalsIgnoreCase("ni") || palabra.equalsIgnoreCase("y")
