@@ -11,6 +11,7 @@ import java.util.Scanner;
 
 public class Repaso {
     public static void main(String[] arg) {
+	System.out.println("Aplicación de primer ejercicio del tema git");
       //creamos un Scanner para leer una palabra
       //almacenamos el contenido en una variable llamada palabraLeida
       System.out.println("Introduce una palabra");
